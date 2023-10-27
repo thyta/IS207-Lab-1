@@ -14,4 +14,7 @@ ví dụ
   img-shop
   img-homepage
 
+quy tắt đặt tên
+https://topdev.vn/blog/bem-la-gi/
+
 
