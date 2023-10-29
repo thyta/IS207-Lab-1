@@ -1,0 +1,228 @@
+/* SHOP START */
+.masthead__txt {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.masthead__txt--sm {
+    font-size: 16px;
+}
+
+.translate-middle {
+    transform: translate(-50%, -50%);
+}
+
+.tool {
+    background-color: #F9F1E7;
+    padding: 0 0 0 0;
+}
+
+.tool__list {
+    float: left;
+    display: block;
+    height: 100%;
+    padding: 6px;
+}
+
+.tool__text {
+    padding-top: 2px;
+}
+
+.tool__container {
+    position: relative;
+}
+
+.tool__child--1 {
+    position: absolute;
+    right: 20px
+}
+
+
+.tool__child--2 {
+    position: absolute;
+    left: 0px
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Adjust the opacity as needed */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover .card-overlay {
+    opacity: 1;
+}
+
+/* Additional styles for text inside the overlay */
+.card-overlay::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-overlay .overlay-content {
+    text-align: center;
+}
+
+.overlay-button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.overlay-button i {
+    margin-right: 5px;
+}
+
+.btn-row {
+    display: flex;
+    justify-content: space-between;
+    /* Adjust as needed */
+}
+
+.card__atc {
+    display: block;
+    margin: 0 auto;
+    width: 202px;
+    height: 48px;
+    flex-shrink: 0;
+    background-color: #ffffff;
+    color: var(--Primary, #B88E2F);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 24px */
+}
+
+.card__title--style {
+    color: var(--color-gray-1, #3A3A3A);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 28.8px */
+}
+
+.card__text--style {
+    color: var(--color-gray-3, #898989);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 24px */
+}
+
+.card__pricenew--style {
+    color: var(--color-gray-1, #3A3A3A);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 30px */
+}
+
+.card__pricebase--style {
+    color: var(--color-gray-4, #B0B0B0);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+    text-decoration-line: strikethrough;
+}
+
+/* css for pagination */
+
+.pagination {
+    margin: 20px;
+}
+
+.pagi__list {
+    background-color: #fff;
+    overflow: hidden;
+    float: left;
+    height: 100%;
+}
+
+.pagi__list li {
+    float: left;
+    display: block;
+    height: 100%;
+
+    border-radius: 10px;
+    background: #F9F1E7;
+}
+
+.pagi__link {
+    color: black;
+    float: left;
+    display: block;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 16px 32px;
+    margin-top: 24px;
+
+    border-radius: 10px;
+    background: #F9F1E7;
+
+    margin: 0 5px;
+}
+
+.pagi__link a {
+    background-color: none;
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
