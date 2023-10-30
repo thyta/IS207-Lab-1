@@ -18,10 +18,10 @@
     <div class="info">
         <div class="row">
             <div class="col-md-1 col-sm-12">
-                <img src="img-singleProduct/sofa1.png" class="info__img--type" alt=""></li>
-                <img src="img-singleProduct/sofa2.png" class="info__img--type" alt=""></li>
-                <img src="img-singleProduct/sofa3.png" class="info__img--type" alt=""></li>
-                <img src="img-singleProduct/sofa4.png" class="info__img--type" alt=""></li>
+                <img src="img-singleProduct/sofa1.png" class="info__img--type" alt="">
+                <img src="img-singleProduct/sofa2.png" class="info__img--type" alt="">
+                <img src="img-singleProduct/sofa3.png" class="info__img--type" alt="">
+                <img src="img-singleProduct/sofa4.png" class="info__img--type" alt="">
             </div>
             <div class="col-md-5 col-sm-12">
                 <img src="img-singleProduct/sofamain.png" class="info__img" alt="">
@@ -100,11 +100,11 @@
             <p>Reviews [5]</p>
         </div>
         <div class="discription__content">
-            <p style="width: 1026px; height: 48px;">Embodying the raw, wayward spirit of rock ‘n’ roll,
+            <p style="max-width: 1026px; height: auto;">Embodying the raw, wayward spirit of rock ‘n’ roll,
                 the Kilburn portable active stereo speaker takes the
                 unmistakable look and sound of Marshall, unplugs the
                 chords, and takes the show on the road.</p>
-            <p style="width: 1026px; height: 96px;">Weighing in under 7 pounds, the Kilburn is a lightweight
+            <p style="max-width: 1026px; height: auto;">Weighing in under 7 pounds, the Kilburn is a lightweight
                 piece of vintage styled engineering. Setting the bar as
                 one of the loudest speakers in its class, the Kilburn is
                 a compact, stout-hearted hero with a well-balanced audio
@@ -116,53 +116,77 @@
         <div class="discription__img">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
-                    <img src="img-singleProduct/co1.png"
-                        style="background: #F9F1E7; margin max-width: 100%; height: 348px; " alt="">
+                    <img src="img-singleProduct/co1.png" style="background: #F9F1E7; max-width: 605px; height: 348px; "
+                        alt="">
                 </div>
                 <div class="col-md-6 col-sm-12">
-                    <img src="img-singleProduct/co2.png"
-                        style="background: #F9F1E7;  max-width: 605px; height: 348px;" alt="">
+                    <img src="img-singleProduct/co2.png" style="background: #F9F1E7;  max-width: 605px; height: 348px;"
+                        alt="">
                 </div>
             </div>
         </div>
         <div class="info__line8"></div>
     </div>
+
     <div class="related">
         <div class="related__title">Related Products</div>
         <div class="row" style="margin:0 100px;">
             <div class="col-md-3 col-sm-12">
-                <div><img src="img-singleProduct/related1.png" alt="">
+                <div class="related__product">
+                    <div class="related__image">
+                        <img src="img-singleProduct/related1.png" alt="">
+                        <div class="related__overlay"></div>
+                    </div>
                     <div class="related__info">
                         <h4>Syltherine</h4>
                         <p>Stylish cafe chair</p>
                         <h5>Rp 2.500.000</h5>
                         <h6>Rp 3.500.000</h6>
                     </div>
+
                 </div>
             </div>
             <div class="col-md-3 col-sm-12">
-                <img src="img-singleProduct/related2.png" alt="">
-                <div class="related__info">
-                    <h4>Leviosa</h4>
-                    <p>Stylish cafe chair</p>
-                    <h5>Rp 2.500.000</h5>
+                <div class="related__product">
+                    <div class="related__image">
+                        <img src="img-singleProduct/related2.png" alt="">
+                        <div class="related__overlay"></div>
+                    </div>
+                    <div class="related__info">
+                        <h4>Leviosa</h4>
+                        <p>Stylish cafe chair</p>
+                        <h5>Rp 2.500.000</h5>
+                    </div>
+
                 </div>
             </div>
             <div class="col-md-3 col-sm-12">
-                <img src="img-singleProduct/related3.png" alt="">
-                <div class="related__info">
-                    <h4>Lolito</h4>
-                    <p>Luxury big sofa</p>
-                    <h5>Rp 7.000.000</h5>
-                    <h6>Rp 14.000.000</h6>
+                <div class="related__product">
+                    <div class="related__image">
+                        <img src="img-singleProduct/related3.png" alt="">
+                        <div class="related__overlay"></div>
+                    </div>
+                    <div class="related__info">
+                        <h4>Lolito</h4>
+                        <p>Luxury big sofa</p>
+                        <h5>Rp 7.000.000</h5>
+                        <h6>Rp 14.000.000</h6>
+                    </div>
+
                 </div>
             </div>
             <div class="col-md-3 col-sm-12">
-                <img src="img-singleProduct/related4.png" alt="">
-                <div class="related__info">
-                    <h4>Respira</h4>
-                    <p>Outdoor bar table and stool</p>
-                    <h5>Rp 500.000</h5>
+                <div class="related__product">
+                    <div class="related__image">
+                        <img src="img-singleProduct/related4.png" alt="">
+                        <div class="related__overlay"></div>
+                    </div>
+                    <div class="related__info">
+                        <h4>Respira</h4>
+                        <p>Outdoor bar table and stool</p>
+                        <h5>Rp 500.000</h5>
+                    </div>
+
                 </div>
             </div>
         </div>
