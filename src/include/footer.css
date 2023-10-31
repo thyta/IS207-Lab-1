@@ -1,0 +1,22 @@
+
+.footer-row p{
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.footer-brand {
+    font-weight:900;
+    margin-top: 40px;
+
+}
+
+
+.footer-uni {
+    margin-top:30px;
+    color:#9F9F9F;
+}
+
+#form5Example21::placeholder {
+    color: #000; /* Set the color to black */
+    font-weight: bold; /* Make the text bold */
+  }

@@ -1,0 +1,260 @@
+.body {
+    display: inline-block;
+}
+
+.header {
+    background-color: white;
+    color: black;
+    position: sticky;
+}
+
+.Browse-the-range {
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.nav-font {
+    font-weight: 500;
+    color: black;
+}
+
+.nav-logo {
+    display: inline-block;
+    vertical-align: middle;
+    max-height: 56px;
+    padding: 8px;
+    overflow: hidden;
+
+}
+.space{
+    padding-top: 50px;
+}
+
+.main-content {
+    background: url(img/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+    background-size: cover;
+    object-fit: contain;
+    background-position: center;
+    width: auto;
+    height: 900px;
+    align-items: center;
+    justify-content: center;
+}
+
+.inside-image {
+    background-color: #FFF3E3;
+    position: absolute;
+    width: 40%;
+    max-height: 100%;
+    top: 25%;
+    right: 5%;
+    padding: 5% 3% 7%;
+
+}
+
+.inside-image h1 {
+    color: #B88E2F;
+    font-weight: 700;
+}
+
+.inside-image p {
+    font-weight: 400;
+    margin: 0;
+}
+
+.buy-now {
+    position: absolute;
+    bottom: 5%;
+    background-color: #B88E2F;
+    color: white;
+    width: 40%;
+    padding: 4%;
+    align-content: center;
+    display: grid;
+    place-items: center;
+}
+
+.middle-page {
+    text-align: center;
+
+    padding: 50px;
+}
+
+.bold {
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+/*-- Css For Albumn*/
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.btn-bd-primary {
+    --bd-violet-bg: #712cf9;
+    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #6528e0;
+    --bs-btn-hover-border-color: #6528e0;
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #5a23c8;
+    --bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle {
+    z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+    display: block !important;
+}
+
+
+.showmore {
+    color: var(--Primary, #B88E2F);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 24px */
+    width: 20%;
+    border: #B88E2F 2px solid;
+    padding: 10px;
+    margin: 40px 40%;
+    text-align: center;
+}
+
+.room-inspiration {
+    background-size: cover;
+    object-fit: contain;
+    background-position: center;
+    width: auto;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCF8F3;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.explore {
+    display: flex;
+    margin: 0% 50% 2% 10%;
+    padding: 4% 7%;
+    background-color: #B88E2F;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore img {
+    position: absolute;
+
+}
+
+.explore h6 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+
+}
+
+.explore-inside {
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.trans {
+    position: absolute;
+    bottom: 13%;
+}
+
+
+
+.footer-row p{
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.footer-brand {
+    font-weight:900;
+    margin-top: 40px;
+
+}
+
+
+.footer-uni {
+    margin-top:30px;
+    color:#9F9F9F;
+}
+
+#form5Example21::placeholder {
+    color: #000; /* Set the color to black */
+    font-weight: bold; /* Make the text bold */
+  }
