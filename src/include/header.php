@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- End bootstrap -->
     <!-- Css -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/header.css">
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
@@ -29,9 +29,9 @@
                     <li><a href="#news" class="nav__link">News</a></li>
                     <li><a href="#about" class="nav__link">About</a></li>
                     <li><a href="#contact" class="nav__link">Contact</a></li>
+                    <!-- Icon friend -->
                 </ul>
                 <ul class="nav__item">
-                    <!-- Icon friend -->
                     <li class="nav__icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
                             viewBox="0 0 28 28" fill="none">
                             <path

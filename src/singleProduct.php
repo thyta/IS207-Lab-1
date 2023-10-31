@@ -19,6 +19,10 @@
 <body>
 
 </body>
+<!-- include header -->
+<?php include 'include/header.php'; ?>
+
+
 <!-- Main content: Start -->
 <div class="product-detail">
     <ul class="crossbar">
@@ -215,5 +219,9 @@
         <a href="#"><p style="margin: 10px">Show More</p></a>
     </div>
 </div>
+
+<!-- include the footer -->
+<?php include 'include/footer.php'; ?>
+
 
 </html>
