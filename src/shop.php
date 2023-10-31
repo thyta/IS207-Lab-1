@@ -40,7 +40,7 @@
                         stroke="black" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
             <li class="tool__list">
-                <p class="tool__text">Filter</p>
+                <p>Filter</p>
             </li>
             <li class="tool__list"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
                     fill="none">

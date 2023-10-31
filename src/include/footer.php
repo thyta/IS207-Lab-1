@@ -10,14 +10,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- End bootstrap -->
     <!-- Css -->
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
 
 <body>
     <!--Footer-->
-    <footer class="bg-white text-left text-black container">
+    <footer class="bg-white text-left text-black container footer__">
         <!-- Grid container -->
         <div class="row footer-row">
             <div class="col-3">

@@ -10,17 +10,18 @@
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-<link rel="stylesheet" href="/Check-out/asset/css/style_check_out.css">
+<link rel="stylesheet" href="css/checkout.css">
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 
 </head>
 
 <body>
   <header>
-    <!-- place navbar here -->
+    <!-- include header -->
+    <?php include 'include/header.php'; ?>
   </header>
   <main>
-    <div class="container mt-5">
+    <div class="container mt-5 main__contain">
         <div class="row">
             <div class="col-sm-5 ">  
                 <p class="h2 mb-2" style="font-weight: 700;">Billing details</p>
@@ -131,11 +132,11 @@
         </div>
      </div>
     </div>
-
-
+    <?php include 'include/banner.php'; ?>
   </main>
   <footer>
     <!-- place footer here -->
+    <?php include 'include/footer.php'; ?>
   </footer>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
