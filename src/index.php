@@ -57,15 +57,15 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <div class="row">
             <div class="col">
-                <img class="center thumbnail" style="max-width: 100%;" src="img/img-home/image 106 (1).png" alt="">
+                <img class="center thumbnail" style="max-width: 100%;" src="img/img-home/image 106.png" alt="">
                 <p>Dining</p>
             </div>
             <div class="col">
-                <img class="center thumbnail" style="max-width: 100%;" src="img/img-home/image 106 (1).png" alt="">
+                <img class="center thumbnail" style="max-width: 100%;" src="img/img-home/image 100.png" alt="">
                 <p>Living</p>
             </div>
             <div class="col">
-                <img class="center thumbnail" style="max-width: 100%;" src="img/img-home/image 106 (1).png" alt="">
+                <img class="center thumbnail" style="max-width: 100%;" src="img/img-home/image 101.png" alt="">
                 <p>Bedroom</p>
             </div>
         </div>
