@@ -132,7 +132,6 @@
                 that is both articulate and pronounced. The analogue knobs allow
                 you to fine tune the controls to your personal preferences while
                 the guitar-influenced leather strap enables easy and stylish travel.</p>
-                <br>
         </div>
         <div class="discription__img">
             <div class="row">
