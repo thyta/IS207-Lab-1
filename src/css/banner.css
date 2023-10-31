@@ -1,0 +1,18 @@
+.container {
+    background-color: #FAF3EA;
+
+    display: flex;
+    width: 1440px;
+    height: 270px;
+    padding: 100px 0px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}

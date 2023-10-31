@@ -26,6 +26,7 @@ html {
     overflow: hidden;
     float: left;
     height: 100%;
+    min-width: 450px;
 }
 
 .nav__list li {

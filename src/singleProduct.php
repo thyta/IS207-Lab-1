@@ -1,4 +1,24 @@
-<?php include("header.php") ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- End bootstrap -->
+    <!-- Css -->
+    <link rel="stylesheet" href="css/singleProduct.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body>
+
+</body>
 <!-- Main content: Start -->
 <div class="product-detail">
     <ul class="crossbar">
@@ -12,31 +32,31 @@
                 fill="none">
                 <path d="M6 15L11 10L6 5L7 3L14 10L7 17L6 15Z" fill="black" />
             </svg></li>
-        <li class="crossbar__line"><img src="img-singleProduct/line5.png" alt=""></li>
+        <li class="crossbar__line"><img src="img/img-singleProduct/line5.png" alt=""></li>
         <li class="crossbar__product--name">Asgaard sofa</li>
     </ul>
     <div class="info">
         <div class="row">
             <div class="col-md-1 col-sm-12">
-                <img src="img-singleProduct/sofa1.png" class="info__img--type" alt="">
-                <img src="img-singleProduct/sofa2.png" class="info__img--type" alt="">
-                <img src="img-singleProduct/sofa3.png" class="info__img--type" alt="">
-                <img src="img-singleProduct/sofa4.png" class="info__img--type" alt="">
+                <img src="img/img-singleProduct/sofa1.png" class="info__img--type" alt="">
+                <img src="img/img-singleProduct/sofa2.png" class="info__img--type" alt="">
+                <img src="img/img-singleProduct/sofa3.png" class="info__img--type" alt="">
+                <img src="img/img-singleProduct/sofa4.png" class="info__img--type" alt="">
             </div>
             <div class="col-md-5 col-sm-12">
-                <img src="img-singleProduct/sofamain.png" class="info__img" alt="">
+                <img src="img/img-singleProduct/sofamain.png" class="info__img" alt="">
             </div>
             <div class="col-md-6 col-sm-12">
                 <div style="margin:0 24px">
                     <div class="info__product--name">Asgaard sofa</div>
                     <div class="info__product--value">Rs. 250,000.00</div>
                     <div>
-                        <img src="img-singleProduct/star.png" alt="">
-                        <img src="img-singleProduct/star.png" alt="">
-                        <img src="img-singleProduct/star.png" alt="">
-                        <img src="img-singleProduct/star.png" alt="">
-                        <img src="img-singleProduct/star-half.png" alt="">
-                        <img src="img-singleProduct/line6.png" style="margin: 10px;" alt="">
+                        <img src="img/img-singleProduct/star.png" alt="">
+                        <img src="img/img-singleProduct/star.png" alt="">
+                        <img src="img/img-singleProduct/star.png" alt="">
+                        <img src="img/img-singleProduct/star.png" alt="">
+                        <img src="img/img-singleProduct/star-half.png" alt="">
+                        <img src="img/img-singleProduct/line6.png" style="margin: 10px;" alt="">
                         5 Customer Review
                     </div>
                     <p class="info__product--intro">
@@ -63,9 +83,9 @@
                         </ul>
                     </div>
                     <div class="info__add">
-                        <img src="img-singleProduct/quantity.png" style="margin: 5px 10px;" alt="">
-                        <img src="img-singleProduct/add.png" style="margin: 5px 10px;" alt="">
-                        <img src="img-singleProduct/compare.png" style="margin: 5px 10px;" alt="">
+                        <img src="img/img-singleProduct/quantity.png" style="margin: 5px 10px;" alt="">
+                        <img src="img/img-singleProduct/add.png" style="margin: 5px 10px;" alt="">
+                        <img src="img/img-singleProduct/compare.png" style="margin: 5px 10px;" alt="">
                     </div>
                     <div class="info__line7"></div>
                     <div style="margin-top: 30px">
@@ -80,10 +100,10 @@
                                 <p style="word-spacing: 5px;"> : SS001</p>
                                 <p style="word-spacing: 5px;"> : Sofas</p>
                                 <p style="word-spacing: 5px;"> : Sofa, Chair, Home, Shop</p>
-                                <p style="word-spacing: 5px;"> : <img src="img-singleProduct/fb.png"
+                                <p style="word-spacing: 5px;"> : <img src="img/img-singleProduct/fb.png"
                                         style="margin-right: 12px" alt="">
-                                    <img src="img-singleProduct/in.png" style="margin-right: 12px" alt="">
-                                    <img src="img-singleProduct/tw.png" style="margin-right: 12px" alt="">
+                                    <img src="img/img-singleProduct/in.png" style="margin-right: 12px" alt="">
+                                    <img src="img/img-singleProduct/tw.png" style="margin-right: 12px" alt="">
                                 </p>
                             </div>
                         </div>
@@ -112,15 +132,16 @@
                 that is both articulate and pronounced. The analogue knobs allow
                 you to fine tune the controls to your personal preferences while
                 the guitar-influenced leather strap enables easy and stylish travel.</p>
+                <br>
         </div>
         <div class="discription__img">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
-                    <img src="img-singleProduct/co1.png" style="background: #F9F1E7; max-width: 605px; height: 348px; "
+                    <img src="img/img-singleProduct/co1.png" style="background: #F9F1E7; max-width: 605px; height: 348px; "
                         alt="">
                 </div>
                 <div class="col-md-6 col-sm-12">
-                    <img src="img-singleProduct/co2.png" style="background: #F9F1E7;  max-width: 605px; height: 348px;"
+                    <img src="img/img-singleProduct/co2.png" style="background: #F9F1E7;  max-width: 605px; height: 348px;"
                         alt="">
                 </div>
             </div>
@@ -134,7 +155,7 @@
             <div class="col-md-3 col-sm-12">
                 <div class="related__product">
                     <div class="related__image">
-                        <img src="img-singleProduct/related1.png" alt="">
+                        <img src="img/img-singleProduct/related1.png" alt="">
                         <div class="related__overlay"></div>
                     </div>
                     <div class="related__info">
@@ -149,7 +170,7 @@
             <div class="col-md-3 col-sm-12">
                 <div class="related__product">
                     <div class="related__image">
-                        <img src="img-singleProduct/related2.png" alt="">
+                        <img src="img/img-singleProduct/related2.png" alt="">
                         <div class="related__overlay"></div>
                     </div>
                     <div class="related__info">
@@ -163,7 +184,7 @@
             <div class="col-md-3 col-sm-12">
                 <div class="related__product">
                     <div class="related__image">
-                        <img src="img-singleProduct/related3.png" alt="">
+                        <img src="img/img-singleProduct/related3.png" alt="">
                         <div class="related__overlay"></div>
                     </div>
                     <div class="related__info">
@@ -178,7 +199,7 @@
             <div class="col-md-3 col-sm-12">
                 <div class="related__product">
                     <div class="related__image">
-                        <img src="img-singleProduct/related4.png" alt="">
+                        <img src="img/img-singleProduct/related4.png" alt="">
                         <div class="related__overlay"></div>
                     </div>
                     <div class="related__info">
@@ -192,6 +213,8 @@
         </div>
     </div>
     <div class="show__btn">
-        <a href="#">Show More</a>
+        <a href="#"><p style="margin: 10px">Show More</p></a>
     </div>
 </div>
+
+</html>
