@@ -1,0 +1,104 @@
+html{
+    
+}
+.home-slider{
+    font-weight: 700;
+}
+.blog-item{
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
+.nen{
+    background-image: url(/Blog/asset/img/Rectangle\ 1.png);
+    min-height: 316px ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.items-detail{
+    text-align: justify;
+}
+.read-more{
+    display:inline;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    border-bottom: 2px solid black;
+}
+.input-box{
+    position: relative;
+  }
+  
+  .input-box i {
+    padding: 12px;
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    right: 12px;
+    top:8px;
+    cursor: pointer;
+  }
+
+  
+  .form-control{
+    border:  1px solid black;
+    border-radius: 10px;
+    height: 60px;
+  }
+  
+  .form-control:focus{
+    background-color: #eeeeee69;
+    box-shadow: none;
+    border-color: #eee;
+  }
+.input-box i:active{
+    rotate: 12px;
+}
+.recent-post-item-detail
+{
+    font-size: 11px;
+    font-weight: 400;
+}
+.recent-post-item{
+  padding-left: 12px;
+}
+.recent-post-item-date,
+.recent-post-item-detail{
+  margin: 0;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.recent-post-item-date{
+  font-size: 10px;
+  opacity: 70%;
+
+}
+.recent-post-items{
+  padding-top: 12px;
+}
+.recent-img{
+  padding-right: 4px;
+}
+.blog-next{
+  background-color: #F9F1E7;
+  padding: 8px;
+  margin: 16px;
+  border-radius: 8px ;
+}
+.blog-next:hover{
+  color: white;
+  background-color: #B88E2F;
+}
+.policy{
+  background-color: #FAF3EA;
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.policy-item{
+  display: flex;
+  align-items: center;
+}
+.policy-detail{
+  align-items: center;
+}

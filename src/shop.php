@@ -919,17 +919,11 @@
     <!-- end of product card -->
 
     <!-- start of pagination -->
-    <div class="pagination d-flex justify-content-center">
-        <nav>
-            <ul class="pagination">
-                <li class="page-item pagi__link"><a href="#">1</a></li>
-                <li class="page-item pagi__link"><a href="#">2</a></li>
-                <li class="page-item pagi__link"><a href="#">3</a></li>
-                <li class="page-item pagi__link">
-                    <a href="#">Next</a>
-                </li>
-            </ul>
-        </nav>
+    <div class="d-flex text-center justify-content-center">
+        <p class="blog-next p-3">1</p>
+        <p class="blog-next p-3">2</p>
+        <p class="blog-next p-3">3</p>
+        <p class="blog-next p-3">Next</p>
     </div>
 
     <!-- include footer -->

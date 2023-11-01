@@ -226,3 +226,14 @@
     font-weight: 400;
     line-height: normal;
 }
+
+.blog-next{
+    background-color: #F9F1E7;
+    padding: 8px;
+    margin: 16px;
+    border-radius: 8px ;
+  }
+  .blog-next:hover{
+    color: white;
+    background-color: #B88E2F;
+  }
